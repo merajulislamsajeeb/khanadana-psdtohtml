@@ -1,0 +1,116 @@
+
+/*=========TOP-FOOD-ITEAMS========*/
+.size img{
+  width: 100%;
+}
+.checked {
+  color: #c0a253;
+}
+.size .star{
+  text-align: end;
+}
+.size p{
+  font-size: 20px;
+  
+  margin: 0;
+}
+.size p span{
+  color: #252525;
+  font-weight: bold;
+}
+.overlayone{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.overlayinn {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: opacity .5s;
+}
+.overlayinn:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+.overlayinn .button{
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 50px;
+  border: none;
+  margin: 10px 15px;
+  color: #fff;
+}
+.overlayinn .button1{
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 65px;
+  border: none;
+  margin: 10px 15px;
+  color: #fff;
+  right: 0;
+  bottom: 0;
+
+}
+/* ==========ALL-FOOD-ITEAMS========== */
+.all-food-iteams{
+  margin-bottom: 400px;
+  margin-top: 100px;
+}
+.hdr{
+  background-color: rgba(17,17,17, 0.02)
+}
+
+.check{
+  height: 20px;
+  width: 20px;
+}
+.slt{
+  width: 70px;
+  height: 35px;
+}
+.overlayone .button{
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 50px;
+  border: none;
+  margin: 10px 15px;
+  color: #fff;
+  right: 0;
+}
+.overlayone .button1{
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 65px;
+  border: none;
+  margin: 10px 15px;
+  color: #fff;
+  right: 0;
+  bottom: 0;
+}
+
+.overlayinn .button2{
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: 10px 15px;
+  color: #fff;
+  top: 40%;
+  left: 22%;
+}
